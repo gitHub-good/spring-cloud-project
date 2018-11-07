@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-auth-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-jpa-table" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-shop-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-shop-api/springcloud-auth-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-shop-api/springcloud-shop-goods-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-shop-api/springcloud-shop-member-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-shop-api/springcloud-shop-order-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-shop-api/springcloud-shop-pay-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-shop-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-shop-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-shop-member" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-shop-message" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-shop-moblie-web" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

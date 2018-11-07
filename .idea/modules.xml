@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springcloud-auth-service/springcloud-auth-service.iml" filepath="$PROJECT_DIR$/springcloud-auth-service/springcloud-auth-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-shop-api/springcloud-auth-service-api/springcloud-auth-service-api.iml" filepath="$PROJECT_DIR$/springcloud-shop-api/springcloud-auth-service-api/springcloud-auth-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-jpa-table/springcloud-jpa-table.iml" filepath="$PROJECT_DIR$/springcloud-jpa-table/springcloud-jpa-table.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-shop-api/springcloud-shop-api.iml" filepath="$PROJECT_DIR$/springcloud-shop-api/springcloud-shop-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-shop-common/springcloud-shop-common.iml" filepath="$PROJECT_DIR$/springcloud-shop-common/springcloud-shop-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-shop-eureka-server/springcloud-shop-eureka-server.iml" filepath="$PROJECT_DIR$/springcloud-shop-eureka-server/springcloud-shop-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-shop-api/springcloud-shop-goods-api/springcloud-shop-goods-api.iml" filepath="$PROJECT_DIR$/springcloud-shop-api/springcloud-shop-goods-api/springcloud-shop-goods-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-shop-member/springcloud-shop-member.iml" filepath="$PROJECT_DIR$/springcloud-shop-member/springcloud-shop-member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-shop-api/springcloud-shop-member-api/springcloud-shop-member-api.iml" filepath="$PROJECT_DIR$/springcloud-shop-api/springcloud-shop-member-api/springcloud-shop-member-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-shop-message/springcloud-shop-message.iml" filepath="$PROJECT_DIR$/springcloud-shop-message/springcloud-shop-message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-shop-moblie-web/springcloud-shop-moblie-web.iml" filepath="$PROJECT_DIR$/springcloud-shop-moblie-web/springcloud-shop-moblie-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-shop-api/springcloud-shop-order-api/springcloud-shop-order-api.iml" filepath="$PROJECT_DIR$/springcloud-shop-api/springcloud-shop-order-api/springcloud-shop-order-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-shop-parent.iml" filepath="$PROJECT_DIR$/springcloud-shop-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-shop-api/springcloud-shop-pay-api/springcloud-shop-pay-api.iml" filepath="$PROJECT_DIR$/springcloud-shop-api/springcloud-shop-pay-api/springcloud-shop-pay-api.iml" />
+    </modules>
+  </component>
+</project>

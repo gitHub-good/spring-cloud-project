@@ -1,0 +1,42 @@
+server:
+  port: 8100
+#  servlet:
+#    context-path: /mobile
+eureka:
+  client:
+    serviceUrl:
+      register-with-eureka: true     #发现Eureka服务注册中心注册的服务提供者 （如果为false则为不进行注册消费者服务）
+      defaultZone: http://eureka7001.com:7001/eureka/
+
+  instance:
+    instance-id: mobile-web-8100    #设置eureka客户端status状态名称
+    prefer-ip-address: true     #访问路径可以显示IP地址
+# 配置该状态url:的显示内容
+info:
+  project.name: springcloud-shop-mobile-web(移动端)
+  app.name: springcloud-xu-message
+  project.description: 该项目服务的主要功能：移动前端项目服务
+  build.artifactId: springcloud-shop-mobile-web
+  build.version: 0.0.1-SNAPSHOT
+
+
+spring:
+   freemarker:
+    suffix: .ftl 
+#    templateEncoding: UTF-8
+    templateLoaderPath: classpath:/templates/
+    enabled: true
+    charset: UTF-8
+   application:
+    name: shop-mobile
+
+feign:
+  hystrix:
+    enabled: false
+  client:
+    config:
+      default:
+        connectTimeout: 50000
+        readTimeout: 50000
+        loggerLevel: basic
+

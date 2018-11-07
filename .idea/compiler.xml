@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-auth-service" />
+        <module name="springcloud-auth-service-api" />
+        <module name="springcloud-jpa-table" />
+        <module name="springcloud-shop-common" />
+        <module name="springcloud-shop-eureka-server" />
+        <module name="springcloud-shop-goods-api" />
+        <module name="springcloud-shop-member" />
+        <module name="springcloud-shop-member-api" />
+        <module name="springcloud-shop-message" />
+        <module name="springcloud-shop-moblie-web" />
+        <module name="springcloud-shop-order-api" />
+        <module name="springcloud-shop-pay-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud-auth-service" target="1.8" />
+      <module name="springcloud-auth-service-api" target="1.8" />
+      <module name="springcloud-jpa-table" target="1.8" />
+      <module name="springcloud-shop-api" target="1.8" />
+      <module name="springcloud-shop-common" target="1.8" />
+      <module name="springcloud-shop-eureka-server" target="1.8" />
+      <module name="springcloud-shop-goods-api" target="1.8" />
+      <module name="springcloud-shop-member" target="1.8" />
+      <module name="springcloud-shop-member-api" target="1.8" />
+      <module name="springcloud-shop-message" target="1.8" />
+      <module name="springcloud-shop-moblie-web" target="1.8" />
+      <module name="springcloud-shop-order-api" target="1.8" />
+      <module name="springcloud-shop-parent" target="1.8" />
+      <module name="springcloud-shop-pay-api" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

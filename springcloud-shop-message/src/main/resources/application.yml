@@ -1,0 +1,66 @@
+server:
+  port: 8002
+#  servlet:
+#    context-path: /message
+
+eureka:
+  client:
+    serviceUrl:
+      register-with-eureka: true      #客户端注册到Eureka中，默认为true
+      defaultZone: http://eureka7001.com:7001/eureka/
+
+  instance:
+    instance-id: message-provider-8002    #设置eureka客户端status状态名称
+    prefer-ip-address: true     #访问路径可以显示IP地址
+
+# 配置该状态url:的显示内容
+info:
+  project.name: springcloud-shop-message(消息服务)
+  app.name: springcloud-xu-message
+  project.description: 该项目服务的主要功能：使用RabbitMQ消息中间件发送消息
+  build.artifactId: springcloud-shop-message
+  build.version: 0.0.1-SNAPSHOT
+
+spring:
+  application:
+    name: shop-message
+
+  rabbitmq:
+    addresses:
+    host: 192.168.10.146
+    port: 5672
+    username: guest
+    password: guest
+
+#  activemq:
+#    broker-url: tcp://192.168.10.146:61617
+#    in-memory: true
+#    pool:
+#      enabled: false
+#  jms:
+#    pub-sub-domain: true
+
+
+  #<-------------------mail 配置 start----------------------->
+  mail:
+    host: smtp.qq.com
+    username: 1156033582@qq.com
+    password: vpfqgldcfmmsgcjh
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true
+          auth: true
+          starttls:
+            enable: true
+            required: true
+  #<-------------------mail 配置 end----------------------->
+
+
+##定义mq队列
+#messages:
+#  queue: default_messages_queue
+
+

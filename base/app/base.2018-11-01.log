@@ -1,0 +1,929 @@
+2018-11-01 00:00:33.426 [main] INFO  com.xu.springcloud.shop.member.SpringcloudShopMemberApplication - No active profile set, falling back to default profiles: default
+2018-11-01 00:00:35.404 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2018-11-01 00:00:35.416 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-01 00:00:35.416 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-11-01 00:00:35.421 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2018-11-01 00:00:35.422 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-11-01 00:00:35.422 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-11-01 00:00:36.487 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2018-11-01 00:00:36.670 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-01 00:00:36.943 [localhost-startStop-1] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-01 00:00:36.943 [localhost-startStop-1] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-01 00:00:36.955 [localhost-startStop-1] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5730fd32
+2018-11-01 00:00:41.054 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-01 00:00:41.055 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-01 00:00:43.093 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2018-11-01 00:00:43.737 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2018-11-01 00:00:43.737 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2018-11-01 00:00:43.865 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2018-11-01 00:00:43.865 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2018-11-01 00:00:44.197 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 00:00:44.663 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2018-11-01 00:00:44.664 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2018-11-01 00:00:44.664 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2018-11-01 00:00:44.664 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2018-11-01 00:00:44.664 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2018-11-01 00:00:44.664 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2018-11-01 00:00:44.664 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2018-11-01 00:00:45.098 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2018-11-01 00:00:45.101 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2018-11-01 00:00:45.104 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-11-01 00:00:45.108 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1541001645106 with initial instances count: 1
+2018-11-01 00:00:45.117 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1541001645117, current=UP, previous=STARTING]
+2018-11-01 00:00:45.119 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SHOP-MEMBER/DESKTOP-77TAM4V:shop-member:8001: registering service...
+2018-11-01 00:00:45.136 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2018-11-01 00:00:45.150 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-01 00:00:45.161 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SHOP-MEMBER/DESKTOP-77TAM4V:shop-member:8001 - registration status: 204
+2018-11-01 00:00:45.172 [main] INFO  com.xu.springcloud.shop.member.SpringcloudShopMemberApplication - Started SpringcloudShopMemberApplication in 14.12 seconds (JVM running for 15.879)
+2018-11-01 00:00:45.531 [RMI TCP Connection(11)-127.0.0.1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-11-01 00:00:45.779 [RMI TCP Connection(13)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-11-01 00:00:46.043 [RMI TCP Connection(13)-127.0.0.1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2018-11-01 00:00:46.045 [RMI TCP Connection(13)-127.0.0.1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2018-11-01 00:05:44.666 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 00:07:05.745 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 00:07:05.745 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求地址:http://localhost:8001/member/regist
+2018-11-01 00:07:05.745 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求方式:POST
+2018-11-01 00:07:05.747 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法:Map com.xu.springcloud.shop.member.api.service.impl.UserServiceImpl.register(UserEntity)
+2018-11-01 00:07:05.747 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法参数:[com.xu.springcloud.shop.member.entity.UserEntity@69532e4c]
+2018-11-01 00:07:05.747 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 00:07:05.809 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.mq.ActiveMqRegisterMailOneToOneProducer - 《********** regist() 注册发送邮件报文mailMessage:{"header":{"queueName":"default_messages_queue"},"content":{"created":1541002025752,"email":"1156033582@qq.com","id":"XLL-MU0202575338","password":"BB7D3A72748D611CB54C1EF75828A46A","phone":"120","updated":1541002025752,"userName":"张三"}}**********》
+2018-11-01 00:07:05.859 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 00:07:05.860 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - Response内容:{"msg":"success","code":200}
+2018-11-01 00:07:05.860 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 00:10:44.668 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 00:15:44.669 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 00:37:18.425 [main] INFO  com.xu.springcloud.shop.member.SpringcloudShopMemberApplication - No active profile set, falling back to default profiles: default
+2018-11-01 00:37:20.457 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2018-11-01 00:37:20.468 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-01 00:37:20.468 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-11-01 00:37:20.473 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2018-11-01 00:37:20.473 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-11-01 00:37:20.474 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-11-01 00:37:21.556 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2018-11-01 00:37:21.745 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-01 00:37:22.026 [localhost-startStop-1] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-01 00:37:22.026 [localhost-startStop-1] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-01 00:37:22.037 [localhost-startStop-1] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3e1f42
+2018-11-01 00:37:25.419 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-01 00:37:25.419 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-01 00:37:27.451 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2018-11-01 00:37:28.125 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2018-11-01 00:37:28.125 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2018-11-01 00:37:28.273 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2018-11-01 00:37:28.273 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2018-11-01 00:37:28.547 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 00:37:29.020 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2018-11-01 00:37:29.021 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2018-11-01 00:37:29.021 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2018-11-01 00:37:29.021 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2018-11-01 00:37:29.021 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2018-11-01 00:37:29.021 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2018-11-01 00:37:29.021 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2018-11-01 00:37:29.494 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2018-11-01 00:37:29.496 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2018-11-01 00:37:29.498 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-11-01 00:37:29.502 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1541003849500 with initial instances count: 0
+2018-11-01 00:37:29.511 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1541003849511, current=UP, previous=STARTING]
+2018-11-01 00:37:29.513 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SHOP-MEMBER/DESKTOP-77TAM4V:shop-member:8001: registering service...
+2018-11-01 00:37:29.529 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2018-11-01 00:37:29.542 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-01 00:37:29.570 [main] INFO  com.xu.springcloud.shop.member.SpringcloudShopMemberApplication - Started SpringcloudShopMemberApplication in 13.569 seconds (JVM running for 15.315)
+2018-11-01 00:37:29.605 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SHOP-MEMBER/DESKTOP-77TAM4V:shop-member:8001 - registration status: 204
+2018-11-01 00:37:30.112 [RMI TCP Connection(6)-127.0.0.1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-11-01 00:37:30.346 [RMI TCP Connection(4)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-11-01 00:37:30.609 [RMI TCP Connection(4)-127.0.0.1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2018-11-01 00:37:30.611 [RMI TCP Connection(4)-127.0.0.1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2018-11-01 00:37:59.497 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2018-11-01 00:37:59.498 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2018-11-01 00:37:59.498 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2018-11-01 00:37:59.498 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2018-11-01 00:37:59.498 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2018-11-01 00:37:59.498 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2018-11-01 00:37:59.498 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2018-11-01 00:37:59.551 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2018-11-01 00:40:41.789 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 00:40:41.790 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求地址:http://localhost:8001/member/regist
+2018-11-01 00:40:41.790 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求方式:POST
+2018-11-01 00:40:41.791 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法:Map com.xu.springcloud.shop.member.api.service.impl.UserServiceImpl.register(UserEntity)
+2018-11-01 00:40:41.792 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法参数:[com.xu.springcloud.shop.member.entity.UserEntity@210ae347]
+2018-11-01 00:40:41.792 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 00:40:41.888 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.mq.ActiveMqRegisterMailOneToOneProducer - 《********** regist() 注册发送邮件报文mailMessage:{"header":{"queueName":"default_messages_queue"},"content":{"mail":"1156033582@qq.com","userName":"张三"}}**********》
+2018-11-01 00:40:41.935 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 00:40:41.936 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - Response内容:{"msg":"success","code":200}
+2018-11-01 00:40:41.936 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 00:41:11.170 [main] INFO  com.xu.springcloud.shop.member.SpringcloudShopMemberApplication - No active profile set, falling back to default profiles: default
+2018-11-01 00:41:13.443 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2018-11-01 00:41:13.455 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-01 00:41:13.455 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-11-01 00:41:13.460 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2018-11-01 00:41:13.460 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-11-01 00:41:13.460 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-11-01 00:41:14.521 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2018-11-01 00:41:14.703 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-01 00:41:14.988 [localhost-startStop-1] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-01 00:41:14.988 [localhost-startStop-1] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-01 00:41:15.002 [localhost-startStop-1] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@57a8db90
+2018-11-01 00:41:18.422 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-01 00:41:18.422 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-01 00:41:20.531 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2018-11-01 00:41:21.229 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2018-11-01 00:41:21.229 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2018-11-01 00:41:21.379 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2018-11-01 00:41:21.379 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2018-11-01 00:41:21.707 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 00:41:22.221 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2018-11-01 00:41:22.221 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2018-11-01 00:41:22.221 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2018-11-01 00:41:22.221 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2018-11-01 00:41:22.221 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2018-11-01 00:41:22.221 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2018-11-01 00:41:22.221 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2018-11-01 00:41:22.707 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2018-11-01 00:41:22.710 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2018-11-01 00:41:22.712 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-11-01 00:41:22.717 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1541004082716 with initial instances count: 2
+2018-11-01 00:41:22.726 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1541004082726, current=UP, previous=STARTING]
+2018-11-01 00:41:22.728 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SHOP-MEMBER/DESKTOP-77TAM4V:shop-member:8001: registering service...
+2018-11-01 00:41:22.745 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2018-11-01 00:41:22.759 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-01 00:41:22.772 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SHOP-MEMBER/DESKTOP-77TAM4V:shop-member:8001 - registration status: 204
+2018-11-01 00:41:22.785 [main] INFO  com.xu.springcloud.shop.member.SpringcloudShopMemberApplication - Started SpringcloudShopMemberApplication in 14.068 seconds (JVM running for 15.803)
+2018-11-01 00:41:23.127 [RMI TCP Connection(6)-127.0.0.1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-11-01 00:41:23.371 [RMI TCP Connection(4)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-11-01 00:41:23.636 [RMI TCP Connection(4)-127.0.0.1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2018-11-01 00:41:23.638 [RMI TCP Connection(4)-127.0.0.1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2018-11-01 00:41:45.462 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 00:41:45.462 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求地址:http://localhost:8001/member/regist
+2018-11-01 00:41:45.462 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求方式:POST
+2018-11-01 00:41:45.464 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法:Map com.xu.springcloud.shop.member.api.service.impl.UserServiceImpl.register(UserEntity)
+2018-11-01 00:41:45.464 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法参数:[com.xu.springcloud.shop.member.entity.UserEntity@11101c39]
+2018-11-01 00:41:45.464 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 00:41:45.570 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.mq.ActiveMqRegisterMailOneToOneProducer - 《********** regist() 注册发送邮件报文mailMessage:{"header":{"queueName":"default_messages_queue"},"content":{"mail":"1156033582@qq.com","userName":"张三"}}**********》
+2018-11-01 00:41:45.617 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 00:41:45.618 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - Response内容:{"msg":"success","code":200}
+2018-11-01 00:41:45.618 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 00:42:10.350 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 00:42:10.350 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求地址:http://localhost:8001/member/regist
+2018-11-01 00:42:10.350 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求方式:POST
+2018-11-01 00:42:10.350 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法:Map com.xu.springcloud.shop.member.api.service.impl.UserServiceImpl.register(UserEntity)
+2018-11-01 00:42:10.350 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法参数:[com.xu.springcloud.shop.member.entity.UserEntity@5a1efc58]
+2018-11-01 00:42:10.350 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 00:42:10.432 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.mq.ActiveMqRegisterMailOneToOneProducer - 《********** regist() 注册发送邮件报文mailMessage:{"header":{"queueName":"default_messages_queue"},"content":{"mail":"1156033582@qq.com","userName":"张三"}}**********》
+2018-11-01 00:42:10.443 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 00:42:10.443 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - Response内容:{"msg":"success","code":200}
+2018-11-01 00:42:10.443 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 00:46:22.224 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 00:51:22.227 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 00:56:22.229 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 01:01:22.231 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 01:06:22.232 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 01:11:22.233 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 01:59:57.351 [main] INFO  com.xu.springcloud.shop.member.SpringcloudShopMemberApplication - No active profile set, falling back to default profiles: default
+2018-11-01 01:59:59.325 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2018-11-01 01:59:59.336 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-01 01:59:59.336 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-11-01 01:59:59.341 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2018-11-01 01:59:59.341 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-11-01 01:59:59.341 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-11-01 02:00:00.391 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2018-11-01 02:00:00.578 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-01 02:00:00.842 [localhost-startStop-1] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-01 02:00:00.842 [localhost-startStop-1] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-01 02:00:00.854 [localhost-startStop-1] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@59e4b23e
+2018-11-01 02:00:04.093 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-01 02:00:04.093 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-01 02:00:06.115 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2018-11-01 02:00:06.760 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2018-11-01 02:00:06.760 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2018-11-01 02:00:06.885 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2018-11-01 02:00:06.885 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2018-11-01 02:00:07.161 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 02:00:07.626 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2018-11-01 02:00:07.627 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2018-11-01 02:00:07.627 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2018-11-01 02:00:07.627 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2018-11-01 02:00:07.627 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2018-11-01 02:00:07.627 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2018-11-01 02:00:07.627 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2018-11-01 02:00:08.086 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2018-11-01 02:00:08.088 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2018-11-01 02:00:08.090 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-11-01 02:00:08.094 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1541008808092 with initial instances count: 0
+2018-11-01 02:00:08.102 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1541008808102, current=UP, previous=STARTING]
+2018-11-01 02:00:08.105 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SHOP-MEMBER/DESKTOP-77TAM4V:shop-member:8001: registering service...
+2018-11-01 02:00:08.123 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2018-11-01 02:00:08.137 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-01 02:00:08.160 [main] INFO  com.xu.springcloud.shop.member.SpringcloudShopMemberApplication - Started SpringcloudShopMemberApplication in 13.134 seconds (JVM running for 14.788)
+2018-11-01 02:00:08.194 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SHOP-MEMBER/DESKTOP-77TAM4V:shop-member:8001 - registration status: 204
+2018-11-01 02:00:08.671 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-11-01 02:00:08.887 [RMI TCP Connection(4)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-11-01 02:00:09.147 [RMI TCP Connection(4)-127.0.0.1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2018-11-01 02:00:09.149 [RMI TCP Connection(4)-127.0.0.1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2018-11-01 02:00:38.089 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2018-11-01 02:00:38.090 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2018-11-01 02:00:38.090 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2018-11-01 02:00:38.090 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2018-11-01 02:00:38.090 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2018-11-01 02:00:38.091 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2018-11-01 02:00:38.091 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2018-11-01 02:00:38.145 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2018-11-01 02:01:38.057 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 02:01:38.057 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求地址:http://localhost:8001/member/regist
+2018-11-01 02:01:38.057 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求方式:POST
+2018-11-01 02:01:38.059 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法:Map com.xu.springcloud.shop.member.api.service.impl.UserServiceImpl.register(UserEntity)
+2018-11-01 02:01:38.059 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法参数:[com.xu.springcloud.shop.member.entity.UserEntity@696464ae]
+2018-11-01 02:01:38.059 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 02:01:38.102 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.mq.MailTopicProducer - 《********** sendMessage() 注册发送邮件报文 mailMessage:{"header":{"queueName":"default_messages_queue"},"content":{"mail":"1035283498@qq.com","userName":"可爱"}}**********》
+2018-11-01 02:01:38.152 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 02:01:38.153 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - Response内容:{"msg":"success","code":200}
+2018-11-01 02:01:38.153 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 02:04:26.172 [main] INFO  com.xu.springcloud.shop.member.SpringcloudShopMemberApplication - No active profile set, falling back to default profiles: default
+2018-11-01 02:04:28.218 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2018-11-01 02:04:28.230 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-01 02:04:28.230 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-11-01 02:04:28.236 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2018-11-01 02:04:28.236 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-11-01 02:04:28.236 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-11-01 02:04:29.291 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2018-11-01 02:04:29.475 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-01 02:04:29.761 [localhost-startStop-1] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-01 02:04:29.761 [localhost-startStop-1] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-01 02:04:29.772 [localhost-startStop-1] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@36c3684f
+2018-11-01 02:04:33.077 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-01 02:04:33.077 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-01 02:04:35.087 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2018-11-01 02:04:35.739 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2018-11-01 02:04:35.739 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2018-11-01 02:04:35.873 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2018-11-01 02:04:35.873 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2018-11-01 02:04:36.164 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 02:04:36.629 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2018-11-01 02:04:36.629 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2018-11-01 02:04:36.629 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2018-11-01 02:04:36.629 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2018-11-01 02:04:36.629 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2018-11-01 02:04:36.629 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2018-11-01 02:04:36.629 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2018-11-01 02:04:37.096 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2018-11-01 02:04:37.099 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2018-11-01 02:04:37.103 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-11-01 02:04:37.107 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1541009077106 with initial instances count: 2
+2018-11-01 02:04:37.116 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1541009077116, current=UP, previous=STARTING]
+2018-11-01 02:04:37.118 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SHOP-MEMBER/DESKTOP-77TAM4V:shop-member:8001: registering service...
+2018-11-01 02:04:37.137 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2018-11-01 02:04:37.149 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-01 02:04:37.157 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SHOP-MEMBER/DESKTOP-77TAM4V:shop-member:8001 - registration status: 204
+2018-11-01 02:04:37.171 [main] INFO  com.xu.springcloud.shop.member.SpringcloudShopMemberApplication - Started SpringcloudShopMemberApplication in 13.479 seconds (JVM running for 15.224)
+2018-11-01 02:04:37.506 [RMI TCP Connection(6)-127.0.0.1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-11-01 02:04:37.745 [RMI TCP Connection(4)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-11-01 02:04:38.020 [RMI TCP Connection(4)-127.0.0.1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2018-11-01 02:04:38.022 [RMI TCP Connection(4)-127.0.0.1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2018-11-01 14:33:21.671 [main] INFO  com.xu.springcloud.shop.member.SpringcloudShopMemberApplication - No active profile set, falling back to default profiles: default
+2018-11-01 14:33:24.080 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2018-11-01 14:33:24.091 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-01 14:33:24.091 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-11-01 14:33:24.096 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2018-11-01 14:33:24.096 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-11-01 14:33:24.097 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-11-01 14:33:25.163 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2018-11-01 14:33:25.345 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-01 14:33:25.625 [localhost-startStop-1] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-01 14:33:25.625 [localhost-startStop-1] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-01 14:33:25.636 [localhost-startStop-1] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2a1ad095
+2018-11-01 14:33:29.345 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-01 14:33:29.345 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-01 14:33:31.472 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2018-11-01 14:33:32.235 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2018-11-01 14:33:32.235 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2018-11-01 14:33:32.356 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2018-11-01 14:33:32.357 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2018-11-01 14:33:32.674 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 14:33:33.200 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2018-11-01 14:33:33.200 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2018-11-01 14:33:33.200 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2018-11-01 14:33:33.200 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2018-11-01 14:33:33.200 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2018-11-01 14:33:33.200 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2018-11-01 14:33:33.200 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2018-11-01 14:33:33.885 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2018-11-01 14:33:33.887 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2018-11-01 14:33:33.889 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-11-01 14:33:33.893 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1541054013892 with initial instances count: 0
+2018-11-01 14:33:33.902 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1541054013902, current=UP, previous=STARTING]
+2018-11-01 14:33:33.904 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SHOP-MEMBER/DESKTOP-77TAM4V:shop-member:8001: registering service...
+2018-11-01 14:33:33.921 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2018-11-01 14:33:33.934 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-01 14:33:33.959 [main] INFO  com.xu.springcloud.shop.member.SpringcloudShopMemberApplication - Started SpringcloudShopMemberApplication in 14.8 seconds (JVM running for 16.702)
+2018-11-01 14:33:34.015 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SHOP-MEMBER/DESKTOP-77TAM4V:shop-member:8001 - registration status: 204
+2018-11-01 14:33:34.206 [RMI TCP Connection(6)-127.0.0.1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-11-01 14:33:34.724 [RMI TCP Connection(8)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-11-01 14:33:35.003 [RMI TCP Connection(8)-127.0.0.1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2018-11-01 14:33:35.005 [RMI TCP Connection(8)-127.0.0.1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2018-11-01 14:34:03.889 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2018-11-01 14:34:03.889 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2018-11-01 14:34:03.889 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2018-11-01 14:34:03.889 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2018-11-01 14:34:03.889 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2018-11-01 14:34:03.889 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2018-11-01 14:34:03.889 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2018-11-01 14:34:03.929 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2018-11-01 14:34:39.203 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 14:34:39.204 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求地址:http://localhost:8001/member/regist
+2018-11-01 14:34:39.204 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求方式:POST
+2018-11-01 14:34:39.316 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法:Map com.xu.springcloud.shop.member.api.service.impl.UserServiceImpl.register(UserEntity)
+2018-11-01 14:34:39.316 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法参数:[com.xu.springcloud.shop.member.entity.UserEntity@24495f9b]
+2018-11-01 14:34:39.316 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 14:34:39.516 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.mq.MailTopicProducer - 《********** sendMessage() 注册发送邮件报文 mailMessage:{"header":{"queueName":"default_messages_queue"},"content":{"mail":"1035283498@qq.com","userName":"可爱"}}**********》
+2018-11-01 14:34:39.606 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 14:34:39.607 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - Response内容:{"msg":"success","code":200}
+2018-11-01 14:34:39.607 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 14:35:46.875 [http-nio-8001-exec-5] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 14:35:46.875 [http-nio-8001-exec-5] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求地址:http://localhost:8001/member/regist
+2018-11-01 14:35:46.875 [http-nio-8001-exec-5] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求方式:POST
+2018-11-01 14:35:46.875 [http-nio-8001-exec-5] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法:Map com.xu.springcloud.shop.member.api.service.impl.UserServiceImpl.register(UserEntity)
+2018-11-01 14:35:46.875 [http-nio-8001-exec-5] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法参数:[com.xu.springcloud.shop.member.entity.UserEntity@587f64b6]
+2018-11-01 14:35:46.875 [http-nio-8001-exec-5] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 14:35:47.226 [http-nio-8001-exec-5] INFO  com.xu.springcloud.shop.member.mq.MailTopicProducer - 《********** sendMessage() 注册发送邮件报文 mailMessage:{"header":{"queueName":"default_messages_queue"},"content":{"mail":"1035283498@qq.com","userName":"可爱"}}**********》
+2018-11-01 14:35:47.262 [http-nio-8001-exec-5] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 14:35:47.263 [http-nio-8001-exec-5] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - Response内容:{"msg":"success","code":200}
+2018-11-01 14:35:47.263 [http-nio-8001-exec-5] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 14:38:21.119 [main] INFO  com.xu.springcloud.shop.member.SpringcloudShopMemberApplication - No active profile set, falling back to default profiles: default
+2018-11-01 14:38:23.183 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2018-11-01 14:38:23.194 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-01 14:38:23.194 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-11-01 14:38:23.199 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2018-11-01 14:38:23.200 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-11-01 14:38:23.200 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-11-01 14:38:24.270 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2018-11-01 14:38:24.451 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-01 14:38:24.717 [localhost-startStop-1] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-01 14:38:24.717 [localhost-startStop-1] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-01 14:38:24.727 [localhost-startStop-1] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@12710907
+2018-11-01 14:38:28.030 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-01 14:38:28.031 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-01 14:38:30.008 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2018-11-01 14:38:30.692 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2018-11-01 14:38:30.692 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2018-11-01 14:38:30.816 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2018-11-01 14:38:30.816 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2018-11-01 14:38:31.104 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 14:38:31.603 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2018-11-01 14:38:31.603 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2018-11-01 14:38:31.603 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2018-11-01 14:38:31.604 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2018-11-01 14:38:31.604 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2018-11-01 14:38:31.604 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2018-11-01 14:38:31.604 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2018-11-01 14:38:32.036 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2018-11-01 14:38:32.038 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2018-11-01 14:38:32.041 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-11-01 14:38:32.044 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1541054312043 with initial instances count: 1
+2018-11-01 14:38:32.053 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1541054312053, current=UP, previous=STARTING]
+2018-11-01 14:38:32.055 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SHOP-MEMBER/DESKTOP-77TAM4V:shop-member:8001: registering service...
+2018-11-01 14:38:32.071 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2018-11-01 14:38:32.084 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-01 14:38:32.094 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SHOP-MEMBER/DESKTOP-77TAM4V:shop-member:8001 - registration status: 204
+2018-11-01 14:38:32.106 [main] INFO  com.xu.springcloud.shop.member.SpringcloudShopMemberApplication - Started SpringcloudShopMemberApplication in 13.41 seconds (JVM running for 15.293)
+2018-11-01 14:38:32.577 [RMI TCP Connection(6)-127.0.0.1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-11-01 14:38:32.825 [RMI TCP Connection(8)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-11-01 14:38:33.155 [RMI TCP Connection(8)-127.0.0.1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2018-11-01 14:38:33.157 [RMI TCP Connection(8)-127.0.0.1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2018-11-01 14:39:01.681 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 14:39:01.681 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求地址:http://localhost:8001/member/regist
+2018-11-01 14:39:01.681 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求方式:POST
+2018-11-01 14:39:01.682 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法:Map com.xu.springcloud.shop.member.api.service.impl.UserServiceImpl.register(UserEntity)
+2018-11-01 14:39:01.683 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法参数:[com.xu.springcloud.shop.member.entity.UserEntity@7429bcc3]
+2018-11-01 14:39:01.683 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 14:39:01.793 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.mq.MailTopicProducer - 《********** sendMessage() 注册发送邮件报文 mailMessage:{"header":{"queueName":"topic_message_queue"},"content":{"mail":"1035283498@qq.com","userName":"可爱"}}**********》
+2018-11-01 14:39:01.838 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 14:39:01.839 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - Response内容:{"msg":"success","code":200}
+2018-11-01 14:39:01.839 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 14:39:17.500 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 14:39:17.500 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求地址:http://localhost:8001/member/regist
+2018-11-01 14:39:17.500 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求方式:POST
+2018-11-01 14:39:17.500 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法:Map com.xu.springcloud.shop.member.api.service.impl.UserServiceImpl.register(UserEntity)
+2018-11-01 14:39:17.500 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法参数:[com.xu.springcloud.shop.member.entity.UserEntity@75a9ba0e]
+2018-11-01 14:39:17.500 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 14:39:17.595 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.mq.MailTopicProducer - 《********** sendMessage() 注册发送邮件报文 mailMessage:{"header":{"queueName":"topic_message_queue"},"content":{"mail":"1035283498@qq.com","userName":"可爱"}}**********》
+2018-11-01 14:39:17.613 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 14:39:17.613 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - Response内容:{"msg":"success","code":200}
+2018-11-01 14:39:17.613 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 14:39:58.418 [http-nio-8001-exec-4] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 14:39:58.418 [http-nio-8001-exec-4] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求地址:http://localhost:8001/member/regist
+2018-11-01 14:39:58.418 [http-nio-8001-exec-4] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求方式:POST
+2018-11-01 14:39:58.418 [http-nio-8001-exec-4] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法:Map com.xu.springcloud.shop.member.api.service.impl.UserServiceImpl.register(UserEntity)
+2018-11-01 14:39:58.419 [http-nio-8001-exec-4] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法参数:[com.xu.springcloud.shop.member.entity.UserEntity@466b9660]
+2018-11-01 14:39:58.419 [http-nio-8001-exec-4] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 14:39:58.532 [http-nio-8001-exec-4] INFO  com.xu.springcloud.shop.member.mq.MailTopicProducer - 《********** sendMessage() 注册发送邮件报文 mailMessage:{"header":{"queueName":"topic_message_queue"},"content":{"mail":"1035283498@qq.com","userName":"可爱"}}**********》
+2018-11-01 14:39:58.563 [http-nio-8001-exec-4] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 14:39:58.566 [http-nio-8001-exec-4] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - Response内容:{"msg":"success","code":200}
+2018-11-01 14:39:58.566 [http-nio-8001-exec-4] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 14:43:31.618 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 14:48:31.621 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 20:03:26.707 [main] INFO  com.xu.springcloud.shop.member.SpringcloudShopMemberApplication - No active profile set, falling back to default profiles: default
+2018-11-01 20:03:28.937 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2018-11-01 20:03:28.949 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-01 20:03:28.949 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-11-01 20:03:28.954 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2018-11-01 20:03:28.955 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-11-01 20:03:28.955 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-11-01 20:03:30.021 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2018-11-01 20:03:30.258 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-01 20:03:30.539 [localhost-startStop-1] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-01 20:03:30.539 [localhost-startStop-1] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-01 20:03:30.550 [localhost-startStop-1] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@408fa45e
+2018-11-01 20:03:34.199 [main] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'userServiceManage'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceManageImpl': Unsatisfied dependency expressed through field 'mailServerProducer'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mailServerProducer': Unsatisfied dependency expressed through field 'mailTopicProducer'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xu.springcloud.shop.member.mq.ActiveMqMailTopicProducer' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-11-01 20:03:34.216 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-11-01 20:03:34.523 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mailTopicProducer in com.xu.springcloud.shop.member.mq.MailServerProducer required a bean of type 'com.xu.springcloud.shop.member.mq.ActiveMqMailTopicProducer' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.xu.springcloud.shop.member.mq.ActiveMqMailTopicProducer' in your configuration.
+
+2018-11-01 20:09:02.723 [main] INFO  com.xu.springcloud.shop.member.SpringcloudShopMemberApplication - No active profile set, falling back to default profiles: default
+2018-11-01 20:09:04.857 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2018-11-01 20:09:04.869 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-01 20:09:04.870 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-11-01 20:09:04.875 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2018-11-01 20:09:04.875 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-11-01 20:09:04.875 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-11-01 20:09:05.928 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2018-11-01 20:09:06.125 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-01 20:09:06.393 [localhost-startStop-1] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-01 20:09:06.393 [localhost-startStop-1] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-01 20:09:06.405 [localhost-startStop-1] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2ddadea
+2018-11-01 20:09:09.947 [main] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'userServiceManage'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceManageImpl': Unsatisfied dependency expressed through field 'mailServerProducer'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mailServerProducer': Unsatisfied dependency expressed through field 'registerMailOneToOneProducer'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xu.springcloud.shop.member.mq.ActiveMqRegisterMailOneToOneProducer' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier(value=registerMailOneToOneProducer), @org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-11-01 20:09:09.964 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-11-01 20:09:10.177 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field registerMailOneToOneProducer in com.xu.springcloud.shop.member.mq.MailServerProducer required a bean of type 'com.xu.springcloud.shop.member.mq.ActiveMqRegisterMailOneToOneProducer' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+The following candidates were found but could not be injected:
+	- User-defined bean
+
+
+Action:
+
+Consider revisiting the entries above or defining a bean of type 'com.xu.springcloud.shop.member.mq.ActiveMqRegisterMailOneToOneProducer' in your configuration.
+
+2018-11-01 20:11:35.695 [main] INFO  com.xu.springcloud.shop.member.SpringcloudShopMemberApplication - No active profile set, falling back to default profiles: default
+2018-11-01 20:11:37.485 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2018-11-01 20:11:37.495 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-01 20:11:37.495 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-11-01 20:11:37.500 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2018-11-01 20:11:37.500 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-11-01 20:11:37.500 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-11-01 20:11:38.554 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2018-11-01 20:11:38.726 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-01 20:11:38.964 [localhost-startStop-1] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-01 20:11:38.964 [localhost-startStop-1] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-01 20:11:38.974 [localhost-startStop-1] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3c9621ed
+2018-11-01 20:11:42.304 [main] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'userServiceManage'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceManageImpl': Unsatisfied dependency expressed through field 'mailServerProducer'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mailServerProducer': Unsatisfied dependency expressed through field 'registerMailOneToOneProducer'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xu.springcloud.shop.member.mq.ActiveMqRegisterMailOneToOneProducer' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier(value=registerMailOneToOneProducer), @org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-11-01 20:11:42.319 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-11-01 20:11:42.520 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field registerMailOneToOneProducer in com.xu.springcloud.shop.member.mq.MailServerProducer required a bean of type 'com.xu.springcloud.shop.member.mq.ActiveMqRegisterMailOneToOneProducer' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+The following candidates were found but could not be injected:
+	- User-defined bean
+
+
+Action:
+
+Consider revisiting the entries above or defining a bean of type 'com.xu.springcloud.shop.member.mq.ActiveMqRegisterMailOneToOneProducer' in your configuration.
+
+2018-11-01 20:14:01.106 [main] INFO  com.xu.springcloud.shop.member.SpringcloudShopMemberApplication - No active profile set, falling back to default profiles: default
+2018-11-01 20:14:03.217 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2018-11-01 20:14:03.228 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-01 20:14:03.228 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-11-01 20:14:03.234 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2018-11-01 20:14:03.234 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-11-01 20:14:03.234 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-11-01 20:14:04.306 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2018-11-01 20:14:04.500 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-01 20:14:04.775 [localhost-startStop-1] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-01 20:14:04.775 [localhost-startStop-1] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-01 20:14:04.786 [localhost-startStop-1] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4869cfa8
+2018-11-01 20:14:08.321 [main] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'userServiceManage'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceManageImpl': Unsatisfied dependency expressed through field 'mailServerProducer'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mailServerProducer': Unsatisfied dependency expressed through field 'registerMailOneToOneProducer'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xu.springcloud.shop.member.mq.ActiveMqRegisterMailOneToOneProducer' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier(value=registerMailOneToOneProducer), @org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-11-01 20:14:08.355 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-11-01 20:14:08.565 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field registerMailOneToOneProducer in com.xu.springcloud.shop.member.mq.MailServerProducer required a bean of type 'com.xu.springcloud.shop.member.mq.ActiveMqRegisterMailOneToOneProducer' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+The following candidates were found but could not be injected:
+	- User-defined bean
+
+
+Action:
+
+Consider revisiting the entries above or defining a bean of type 'com.xu.springcloud.shop.member.mq.ActiveMqRegisterMailOneToOneProducer' in your configuration.
+
+2018-11-01 20:17:53.450 [main] INFO  com.xu.springcloud.shop.member.SpringcloudShopMemberApplication - No active profile set, falling back to default profiles: default
+2018-11-01 20:17:55.608 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2018-11-01 20:17:55.624 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-01 20:17:55.624 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-11-01 20:17:55.629 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2018-11-01 20:17:55.630 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-11-01 20:17:55.630 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-11-01 20:17:56.698 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2018-11-01 20:17:56.892 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-01 20:17:57.172 [localhost-startStop-1] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-01 20:17:57.172 [localhost-startStop-1] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-01 20:17:57.183 [localhost-startStop-1] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4bd04c13
+2018-11-01 20:18:00.838 [main] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mbUserServiceImpl': Unsatisfied dependency expressed through field 'registerMailOneToOneProducer'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'activeMqRegisterMailOneToOneProducer': Unsatisfied dependency expressed through field 'jmsMessagingTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.jms.core.JmsMessagingTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier(value=jmsMessagingTemplateActiveOneToOne), @org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-11-01 20:18:00.856 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-11-01 20:18:01.179 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field jmsMessagingTemplate in com.xu.springcloud.shop.member.mq.ActiveMqRegisterMailOneToOneProducer required a bean of type 'org.springframework.jms.core.JmsMessagingTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+The following candidates were found but could not be injected:
+	- User-defined bean method 'jmsMessagingTemplate' in 'JmsAutoConfiguration.MessagingTemplateConfiguration'
+
+
+Action:
+
+Consider revisiting the entries above or defining a bean of type 'org.springframework.jms.core.JmsMessagingTemplate' in your configuration.
+
+2018-11-01 20:19:21.211 [main] INFO  com.xu.springcloud.shop.member.SpringcloudShopMemberApplication - No active profile set, falling back to default profiles: default
+2018-11-01 20:19:23.425 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2018-11-01 20:19:23.436 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-01 20:19:23.436 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-11-01 20:19:23.441 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2018-11-01 20:19:23.441 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-11-01 20:19:23.442 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-11-01 20:19:24.537 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2018-11-01 20:19:24.771 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-01 20:19:25.124 [localhost-startStop-1] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-01 20:19:25.124 [localhost-startStop-1] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-01 20:19:25.135 [localhost-startStop-1] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@25d6cdbe
+2018-11-01 20:19:28.592 [main] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mbUserServiceImpl': Unsatisfied dependency expressed through field 'registerMailOneToOneProducer'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'activeMqRegisterMailOneToOneProducer': Unsatisfied dependency expressed through field 'jmsMessagingTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.jms.core.JmsMessagingTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier(value=jmsMessagingTemplate_01), @org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-11-01 20:19:28.611 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-11-01 20:19:28.925 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field jmsMessagingTemplate in com.xu.springcloud.shop.member.mq.ActiveMqRegisterMailOneToOneProducer required a bean of type 'org.springframework.jms.core.JmsMessagingTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+The following candidates were found but could not be injected:
+	- User-defined bean method 'jmsMessagingTemplate' in 'JmsAutoConfiguration.MessagingTemplateConfiguration'
+
+
+Action:
+
+Consider revisiting the entries above or defining a bean of type 'org.springframework.jms.core.JmsMessagingTemplate' in your configuration.
+
+2018-11-01 20:19:58.392 [main] INFO  com.xu.springcloud.shop.member.SpringcloudShopMemberApplication - No active profile set, falling back to default profiles: default
+2018-11-01 20:20:00.491 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2018-11-01 20:20:00.503 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-01 20:20:00.503 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-11-01 20:20:00.508 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2018-11-01 20:20:00.508 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-11-01 20:20:00.509 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-11-01 20:20:01.600 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2018-11-01 20:20:01.799 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-01 20:20:02.087 [localhost-startStop-1] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-01 20:20:02.087 [localhost-startStop-1] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-01 20:20:02.098 [localhost-startStop-1] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@457a1dd4
+2018-11-01 20:20:05.604 [main] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'userServiceManage'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceManageImpl': Unsatisfied dependency expressed through field 'mailServerProducer'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mailServerProducer': Unsatisfied dependency expressed through field 'registerMailOneToOneProducer'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xu.springcloud.shop.member.mq.ActiveMqRegisterMailOneToOneProducer' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier(value=registerMailOneToOneProducer), @org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-11-01 20:20:05.621 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-11-01 20:20:05.828 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field registerMailOneToOneProducer in com.xu.springcloud.shop.member.mq.MailServerProducer required a bean of type 'com.xu.springcloud.shop.member.mq.ActiveMqRegisterMailOneToOneProducer' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+The following candidates were found but could not be injected:
+	- User-defined bean
+
+
+Action:
+
+Consider revisiting the entries above or defining a bean of type 'com.xu.springcloud.shop.member.mq.ActiveMqRegisterMailOneToOneProducer' in your configuration.
+
+2018-11-01 20:21:06.022 [main] INFO  com.xu.springcloud.shop.member.SpringcloudShopMemberApplication - No active profile set, falling back to default profiles: default
+2018-11-01 20:21:08.140 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2018-11-01 20:21:08.151 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-01 20:21:08.151 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-11-01 20:21:08.156 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2018-11-01 20:21:08.156 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-11-01 20:21:08.156 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-11-01 20:21:09.219 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2018-11-01 20:21:09.415 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-01 20:21:09.689 [localhost-startStop-1] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-01 20:21:09.690 [localhost-startStop-1] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-01 20:21:09.701 [localhost-startStop-1] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@272e55d8
+2018-11-01 20:21:13.350 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-01 20:21:13.350 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-01 20:21:15.543 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2018-11-01 20:21:16.222 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2018-11-01 20:21:16.222 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2018-11-01 20:21:16.350 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2018-11-01 20:21:16.351 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2018-11-01 20:21:16.867 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 20:21:17.370 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2018-11-01 20:21:17.371 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2018-11-01 20:21:17.371 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2018-11-01 20:21:17.371 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2018-11-01 20:21:17.371 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2018-11-01 20:21:17.371 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2018-11-01 20:21:17.371 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2018-11-01 20:21:17.611 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2018-11-01 20:21:17.613 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2018-11-01 20:21:17.615 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-11-01 20:21:17.620 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1541074877618 with initial instances count: 0
+2018-11-01 20:21:17.631 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1541074877631, current=UP, previous=STARTING]
+2018-11-01 20:21:17.633 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SHOP-MEMBER/DESKTOP-77TAM4V:shop-member:8001: registering service...
+2018-11-01 20:21:17.653 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2018-11-01 20:21:17.668 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-01 20:21:17.698 [main] INFO  com.xu.springcloud.shop.member.SpringcloudShopMemberApplication - Started SpringcloudShopMemberApplication in 14.308 seconds (JVM running for 16.029)
+2018-11-01 20:21:17.736 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SHOP-MEMBER/DESKTOP-77TAM4V:shop-member:8001 - registration status: 204
+2018-11-01 20:21:18.091 [RMI TCP Connection(4)-127.0.0.1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-11-01 20:21:18.402 [RMI TCP Connection(6)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Loaded the Bouncy Castle security provider.
+2018-11-01 20:21:18.447 [RMI TCP Connection(6)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2018-11-01 20:21:18.448 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2018-11-01 20:21:18.595 [RMI TCP Connection(6)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.15.6 (localhost, ID:DESKTOP-77TAM4V-53066-1541074878453-0:1) is starting
+2018-11-01 20:21:18.598 [RMI TCP Connection(6)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.15.6 (localhost, ID:DESKTOP-77TAM4V-53066-1541074878453-0:1) started
+2018-11-01 20:21:18.599 [RMI TCP Connection(6)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2018-11-01 20:21:18.633 [RMI TCP Connection(6)-127.0.0.1] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2018-11-01 20:21:18.676 [RMI TCP Connection(6)-127.0.0.1] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2018-11-01 20:21:18.676 [RMI TCP Connection(6)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.15.6 (localhost, ID:DESKTOP-77TAM4V-53066-1541074878453-0:1) is shutting down
+2018-11-01 20:21:18.685 [RMI TCP Connection(6)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.15.6 (localhost, ID:DESKTOP-77TAM4V-53066-1541074878453-0:1) uptime 0.257 seconds
+2018-11-01 20:21:18.685 [RMI TCP Connection(6)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.15.6 (localhost, ID:DESKTOP-77TAM4V-53066-1541074878453-0:1) is shutdown
+2018-11-01 20:21:18.725 [RMI TCP Connection(6)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-11-01 20:21:18.983 [RMI TCP Connection(6)-127.0.0.1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2018-11-01 20:21:18.984 [RMI TCP Connection(6)-127.0.0.1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2018-11-01 20:21:39.128 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 20:21:39.128 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求地址:http://localhost:8001/member/regist
+2018-11-01 20:21:39.128 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求方式:POST
+2018-11-01 20:21:39.130 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法:Map com.xu.springcloud.shop.member.api.service.impl.UserServiceImpl.register(UserEntity)
+2018-11-01 20:21:39.130 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法参数:[com.xu.springcloud.shop.member.entity.UserEntity@70eaa223]
+2018-11-01 20:21:39.130 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 20:21:49.555 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2018-11-01 20:21:49.556 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2018-11-01 20:21:49.556 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2018-11-01 20:21:49.557 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2018-11-01 20:21:49.558 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2018-11-01 20:21:49.559 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2018-11-01 20:21:49.560 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2018-11-01 20:21:49.607 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2018-11-01 20:23:15.874 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.mq.RabbitMailTopicProducer - 《********** 使用RabbitMQ 发布订阅的方式 发送邮件报文信息 content:com.xu.springcloud.shop.common.base.entity.MailBase@31c27e56**********》
+2018-11-01 20:23:51.101 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 20:23:51.105 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - Response内容:{"msg":"success","code":200}
+2018-11-01 20:23:51.105 [http-nio-8001-exec-1] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 20:26:17.375 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 20:31:17.377 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 20:36:17.380 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 20:41:17.381 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 20:46:17.382 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 20:47:36.420 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 20:47:36.420 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求地址:http://localhost:8001/member/regist
+2018-11-01 20:47:36.420 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求方式:POST
+2018-11-01 20:47:36.420 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法:Map com.xu.springcloud.shop.member.api.service.impl.UserServiceImpl.register(UserEntity)
+2018-11-01 20:47:36.420 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法参数:[com.xu.springcloud.shop.member.entity.UserEntity@2a2ef863]
+2018-11-01 20:47:36.420 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 20:51:23.266 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 20:51:23.267 [AMQP Connection 192.168.10.146:5672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Connection reset)
+2018-11-01 20:51:23.271 [AMQP Connection 192.168.10.146:5672] ERROR org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Channel shutdown: connection error
+2018-11-01 20:51:25.342 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.mq.RabbitMailTopicProducer - 《********** 使用RabbitMQ 发布订阅的方式 发送邮件报文信息 content:com.xu.springcloud.shop.common.base.entity.MailBase@2b35fb0d**********》
+2018-11-01 20:51:25.361 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 20:51:25.361 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - Response内容:{"msg":"success","code":200}
+2018-11-01 20:51:25.361 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 20:52:36.844 [http-nio-8001-exec-8] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 20:52:36.845 [http-nio-8001-exec-8] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求地址:http://localhost:8001/member/regist
+2018-11-01 20:52:36.845 [http-nio-8001-exec-8] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求方式:POST
+2018-11-01 20:52:36.845 [http-nio-8001-exec-8] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法:Map com.xu.springcloud.shop.member.api.service.impl.UserServiceImpl.register(UserEntity)
+2018-11-01 20:52:36.845 [http-nio-8001-exec-8] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法参数:[com.xu.springcloud.shop.member.entity.UserEntity@3f4dd60d]
+2018-11-01 20:52:36.845 [http-nio-8001-exec-8] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 20:52:36.917 [http-nio-8001-exec-8] INFO  com.xu.springcloud.shop.member.mq.RabbitMailTopicProducer - 《********** 使用RabbitMQ 发布订阅的方式 发送邮件报文信息 content:com.xu.springcloud.shop.common.base.entity.MailBase@211b780a**********》
+2018-11-01 20:52:36.918 [http-nio-8001-exec-8] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 20:52:36.918 [http-nio-8001-exec-8] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - Response内容:{"msg":"success","code":200}
+2018-11-01 20:52:36.918 [http-nio-8001-exec-8] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 20:55:27.957 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 20:55:27.957 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求地址:http://localhost:8001/member/regist
+2018-11-01 20:55:27.957 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求方式:POST
+2018-11-01 20:55:27.957 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法:Map com.xu.springcloud.shop.member.api.service.impl.UserServiceImpl.register(UserEntity)
+2018-11-01 20:55:27.957 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法参数:[com.xu.springcloud.shop.member.entity.UserEntity@f45b049]
+2018-11-01 20:55:27.957 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 20:55:28.054 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.mq.RabbitMailTopicProducer - 《********** 使用RabbitMQ 发布订阅的方式 发送邮件报文信息 content:com.xu.springcloud.shop.common.base.entity.MailBase@6b02c665**********》
+2018-11-01 20:55:28.054 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 20:55:28.054 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - Response内容:{"msg":"success","code":200}
+2018-11-01 20:55:28.054 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 20:56:23.268 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 20:56:40.670 [http-nio-8001-exec-5] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 20:56:40.670 [http-nio-8001-exec-5] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求地址:http://localhost:8001/member/regist
+2018-11-01 20:56:40.670 [http-nio-8001-exec-5] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求方式:POST
+2018-11-01 20:56:40.671 [http-nio-8001-exec-5] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法:Map com.xu.springcloud.shop.member.api.service.impl.UserServiceImpl.register(UserEntity)
+2018-11-01 20:56:40.671 [http-nio-8001-exec-5] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法参数:[com.xu.springcloud.shop.member.entity.UserEntity@23c4cd93]
+2018-11-01 20:56:40.671 [http-nio-8001-exec-5] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 20:56:40.776 [http-nio-8001-exec-5] INFO  com.xu.springcloud.shop.member.mq.RabbitMailTopicProducer - 《********** 使用RabbitMQ 发布订阅的方式 发送邮件报文信息 content:com.xu.springcloud.shop.common.base.entity.MailBase@6993dde1**********》
+2018-11-01 20:56:40.777 [http-nio-8001-exec-5] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 20:56:40.777 [http-nio-8001-exec-5] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - Response内容:{"msg":"success","code":200}
+2018-11-01 20:56:40.777 [http-nio-8001-exec-5] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 20:56:41.362 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 20:56:41.362 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求地址:http://localhost:8001/member/regist
+2018-11-01 20:56:41.362 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求方式:POST
+2018-11-01 20:56:41.362 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法:Map com.xu.springcloud.shop.member.api.service.impl.UserServiceImpl.register(UserEntity)
+2018-11-01 20:56:41.363 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法参数:[com.xu.springcloud.shop.member.entity.UserEntity@1a5eb1ca]
+2018-11-01 20:56:41.363 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 20:56:41.385 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.mq.RabbitMailTopicProducer - 《********** 使用RabbitMQ 发布订阅的方式 发送邮件报文信息 content:com.xu.springcloud.shop.common.base.entity.MailBase@3f224a01**********》
+2018-11-01 20:56:41.386 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 20:56:41.386 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - Response内容:{"msg":"success","code":200}
+2018-11-01 20:56:41.386 [http-nio-8001-exec-3] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 20:56:42.207 [http-nio-8001-exec-6] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 20:56:42.207 [http-nio-8001-exec-6] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求地址:http://localhost:8001/member/regist
+2018-11-01 20:56:42.207 [http-nio-8001-exec-6] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求方式:POST
+2018-11-01 20:56:42.208 [http-nio-8001-exec-6] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法:Map com.xu.springcloud.shop.member.api.service.impl.UserServiceImpl.register(UserEntity)
+2018-11-01 20:56:42.208 [http-nio-8001-exec-6] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法参数:[com.xu.springcloud.shop.member.entity.UserEntity@32d0abd0]
+2018-11-01 20:56:42.208 [http-nio-8001-exec-6] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 20:56:42.284 [http-nio-8001-exec-6] INFO  com.xu.springcloud.shop.member.mq.RabbitMailTopicProducer - 《********** 使用RabbitMQ 发布订阅的方式 发送邮件报文信息 content:com.xu.springcloud.shop.common.base.entity.MailBase@4a93e39f**********》
+2018-11-01 20:56:42.284 [http-nio-8001-exec-6] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 20:56:42.284 [http-nio-8001-exec-6] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - Response内容:{"msg":"success","code":200}
+2018-11-01 20:56:42.284 [http-nio-8001-exec-6] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 20:58:48.858 [http-nio-8001-exec-9] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 20:58:48.858 [http-nio-8001-exec-9] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求地址:http://localhost:8001/member/regist
+2018-11-01 20:58:48.858 [http-nio-8001-exec-9] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求方式:POST
+2018-11-01 20:58:48.858 [http-nio-8001-exec-9] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法:Map com.xu.springcloud.shop.member.api.service.impl.UserServiceImpl.register(UserEntity)
+2018-11-01 20:58:48.858 [http-nio-8001-exec-9] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法参数:[com.xu.springcloud.shop.member.entity.UserEntity@2439fafd]
+2018-11-01 20:58:48.858 [http-nio-8001-exec-9] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 20:58:48.909 [http-nio-8001-exec-9] INFO  com.xu.springcloud.shop.member.mq.RabbitMailTopicProducer - 《********** 使用RabbitMQ 发布订阅的方式 发送邮件报文信息 content:com.xu.springcloud.shop.common.base.entity.MailBase@46eba6**********》
+2018-11-01 20:58:48.910 [http-nio-8001-exec-9] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 20:58:48.910 [http-nio-8001-exec-9] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - Response内容:{"msg":"success","code":200}
+2018-11-01 20:58:48.910 [http-nio-8001-exec-9] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 20:58:49.565 [http-nio-8001-exec-10] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 20:58:49.565 [http-nio-8001-exec-10] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求地址:http://localhost:8001/member/regist
+2018-11-01 20:58:49.565 [http-nio-8001-exec-10] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求方式:POST
+2018-11-01 20:58:49.566 [http-nio-8001-exec-10] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法:Map com.xu.springcloud.shop.member.api.service.impl.UserServiceImpl.register(UserEntity)
+2018-11-01 20:58:49.566 [http-nio-8001-exec-10] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法参数:[com.xu.springcloud.shop.member.entity.UserEntity@54f6e315]
+2018-11-01 20:58:49.566 [http-nio-8001-exec-10] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 20:58:49.604 [http-nio-8001-exec-10] INFO  com.xu.springcloud.shop.member.mq.RabbitMailTopicProducer - 《********** 使用RabbitMQ 发布订阅的方式 发送邮件报文信息 content:com.xu.springcloud.shop.common.base.entity.MailBase@7881abff**********》
+2018-11-01 20:58:49.604 [http-nio-8001-exec-10] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 20:58:49.605 [http-nio-8001-exec-10] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - Response内容:{"msg":"success","code":200}
+2018-11-01 20:58:49.605 [http-nio-8001-exec-10] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 20:58:50.327 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 20:58:50.328 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求地址:http://localhost:8001/member/regist
+2018-11-01 20:58:50.328 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求方式:POST
+2018-11-01 20:58:50.328 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法:Map com.xu.springcloud.shop.member.api.service.impl.UserServiceImpl.register(UserEntity)
+2018-11-01 20:58:50.328 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法参数:[com.xu.springcloud.shop.member.entity.UserEntity@435c1162]
+2018-11-01 20:58:50.328 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 20:58:50.395 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.mq.RabbitMailTopicProducer - 《********** 使用RabbitMQ 发布订阅的方式 发送邮件报文信息 content:com.xu.springcloud.shop.common.base.entity.MailBase@74b080e**********》
+2018-11-01 20:58:50.397 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 20:58:50.397 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - Response内容:{"msg":"success","code":200}
+2018-11-01 20:58:50.397 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 21:01:32.500 [main] INFO  com.xu.springcloud.shop.member.SpringcloudShopMemberApplication - No active profile set, falling back to default profiles: default
+2018-11-01 21:01:34.672 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2018-11-01 21:01:34.683 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-01 21:01:34.683 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-11-01 21:01:34.689 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2018-11-01 21:01:34.689 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-11-01 21:01:34.689 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-11-01 21:01:35.744 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2018-11-01 21:01:35.957 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-01 21:01:36.234 [localhost-startStop-1] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-01 21:01:36.235 [localhost-startStop-1] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-01 21:01:36.247 [localhost-startStop-1] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4c37e6a8
+2018-11-01 21:01:39.925 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-11-01 21:01:39.925 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-01 21:01:42.174 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2018-11-01 21:01:42.857 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2018-11-01 21:01:42.858 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2018-11-01 21:01:42.989 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2018-11-01 21:01:42.990 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2018-11-01 21:01:43.516 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 21:01:44.017 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2018-11-01 21:01:44.017 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2018-11-01 21:01:44.017 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2018-11-01 21:01:44.017 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2018-11-01 21:01:44.017 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2018-11-01 21:01:44.017 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2018-11-01 21:01:44.017 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2018-11-01 21:01:44.197 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2018-11-01 21:01:44.200 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2018-11-01 21:01:44.202 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-11-01 21:01:44.206 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1541077304205 with initial instances count: 2
+2018-11-01 21:01:44.214 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1541077304214, current=UP, previous=STARTING]
+2018-11-01 21:01:44.216 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SHOP-MEMBER/DESKTOP-77TAM4V:shop-member:8001: registering service...
+2018-11-01 21:01:44.235 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2018-11-01 21:01:44.249 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-01 21:01:44.260 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SHOP-MEMBER/DESKTOP-77TAM4V:shop-member:8001 - registration status: 204
+2018-11-01 21:01:44.276 [main] INFO  com.xu.springcloud.shop.member.SpringcloudShopMemberApplication - Started SpringcloudShopMemberApplication in 14.429 seconds (JVM running for 16.27)
+2018-11-01 21:01:44.490 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-11-01 21:01:44.741 [RMI TCP Connection(4)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Loaded the Bouncy Castle security provider.
+2018-11-01 21:01:44.816 [RMI TCP Connection(4)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2018-11-01 21:01:44.819 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2018-11-01 21:01:44.954 [RMI TCP Connection(4)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.15.6 (localhost, ID:DESKTOP-77TAM4V-55431-1541077304831-0:1) is starting
+2018-11-01 21:01:44.959 [RMI TCP Connection(4)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.15.6 (localhost, ID:DESKTOP-77TAM4V-55431-1541077304831-0:1) started
+2018-11-01 21:01:44.959 [RMI TCP Connection(4)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2018-11-01 21:01:44.993 [RMI TCP Connection(4)-127.0.0.1] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2018-11-01 21:01:45.033 [RMI TCP Connection(4)-127.0.0.1] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2018-11-01 21:01:45.034 [RMI TCP Connection(4)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.15.6 (localhost, ID:DESKTOP-77TAM4V-55431-1541077304831-0:1) is shutting down
+2018-11-01 21:01:45.041 [RMI TCP Connection(4)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.15.6 (localhost, ID:DESKTOP-77TAM4V-55431-1541077304831-0:1) uptime 0.267 seconds
+2018-11-01 21:01:45.041 [RMI TCP Connection(4)-127.0.0.1] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.15.6 (localhost, ID:DESKTOP-77TAM4V-55431-1541077304831-0:1) is shutdown
+2018-11-01 21:01:45.077 [RMI TCP Connection(4)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-11-01 21:01:45.335 [RMI TCP Connection(4)-127.0.0.1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2018-11-01 21:01:45.336 [RMI TCP Connection(4)-127.0.0.1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2018-11-01 21:02:18.116 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 21:02:18.117 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求地址:http://localhost:8001/member/regist
+2018-11-01 21:02:18.117 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求方式:POST
+2018-11-01 21:02:18.118 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法:Map com.xu.springcloud.shop.member.api.service.impl.UserServiceImpl.register(UserEntity)
+2018-11-01 21:02:18.119 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法参数:[com.xu.springcloud.shop.member.entity.UserEntity@3f338891]
+2018-11-01 21:02:18.119 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 21:02:18.227 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.mq.RabbitMailTopicProducer - 《********** 使用RabbitMQ 发布订阅的方式 发送邮件报文信息 content:com.xu.springcloud.shop.common.base.entity.MailBase@21a03ee3**********》
+2018-11-01 21:02:18.235 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 21:02:18.238 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - Response内容:{"msg":"success","code":200}
+2018-11-01 21:02:18.238 [http-nio-8001-exec-2] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 21:02:18.910 [http-nio-8001-exec-4] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 21:02:18.910 [http-nio-8001-exec-4] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求地址:http://localhost:8001/member/regist
+2018-11-01 21:02:18.910 [http-nio-8001-exec-4] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求方式:POST
+2018-11-01 21:02:18.910 [http-nio-8001-exec-4] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法:Map com.xu.springcloud.shop.member.api.service.impl.UserServiceImpl.register(UserEntity)
+2018-11-01 21:02:18.910 [http-nio-8001-exec-4] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法参数:[com.xu.springcloud.shop.member.entity.UserEntity@19c08f21]
+2018-11-01 21:02:18.910 [http-nio-8001-exec-4] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 21:02:18.921 [http-nio-8001-exec-4] INFO  com.xu.springcloud.shop.member.mq.RabbitMailTopicProducer - 《********** 使用RabbitMQ 发布订阅的方式 发送邮件报文信息 content:com.xu.springcloud.shop.common.base.entity.MailBase@4b1e5c33**********》
+2018-11-01 21:02:18.921 [http-nio-8001-exec-4] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 21:02:18.921 [http-nio-8001-exec-4] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - Response内容:{"msg":"success","code":200}
+2018-11-01 21:02:18.921 [http-nio-8001-exec-4] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 21:06:44.019 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 21:09:00.902 [http-nio-8001-exec-6] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 21:09:00.902 [http-nio-8001-exec-6] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求地址:http://localhost:8001/member/regist
+2018-11-01 21:09:00.902 [http-nio-8001-exec-6] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求方式:POST
+2018-11-01 21:09:00.902 [http-nio-8001-exec-6] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法:Map com.xu.springcloud.shop.member.api.service.impl.UserServiceImpl.register(UserEntity)
+2018-11-01 21:09:00.902 [http-nio-8001-exec-6] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法参数:[com.xu.springcloud.shop.member.entity.UserEntity@63421a2]
+2018-11-01 21:09:00.902 [http-nio-8001-exec-6] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 21:09:00.993 [http-nio-8001-exec-6] INFO  com.xu.springcloud.shop.member.mq.RabbitMailTopicProducer - 《********** 使用RabbitMQ 发布订阅的方式 发送邮件报文信息 content:com.xu.springcloud.shop.common.base.entity.MailBase@7460f3c7**********》
+2018-11-01 21:09:00.994 [http-nio-8001-exec-6] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 21:09:00.994 [http-nio-8001-exec-6] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - Response内容:{"msg":"success","code":200}
+2018-11-01 21:09:00.994 [http-nio-8001-exec-6] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 21:10:09.795 [http-nio-8001-exec-9] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 21:10:09.795 [http-nio-8001-exec-9] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求地址:http://localhost:8001/member/regist
+2018-11-01 21:10:09.795 [http-nio-8001-exec-9] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求方式:POST
+2018-11-01 21:10:09.795 [http-nio-8001-exec-9] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法:Map com.xu.springcloud.shop.member.api.service.impl.UserServiceImpl.register(UserEntity)
+2018-11-01 21:10:09.795 [http-nio-8001-exec-9] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 请求类方法参数:[com.xu.springcloud.shop.member.entity.UserEntity@29fcbf5f]
+2018-11-01 21:10:09.795 [http-nio-8001-exec-9] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 开始请求数据资源 **********》
+2018-11-01 21:10:09.882 [http-nio-8001-exec-9] INFO  com.xu.springcloud.shop.member.mq.RabbitMailTopicProducer - 《********** 使用RabbitMQ 发布订阅的方式 发送邮件报文信息 content:com.xu.springcloud.shop.common.base.entity.MailBase@2a4c13f3**********》
+2018-11-01 21:10:09.882 [http-nio-8001-exec-9] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 21:10:09.882 [http-nio-8001-exec-9] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - Response内容:{"msg":"success","code":200}
+2018-11-01 21:10:09.882 [http-nio-8001-exec-9] INFO  com.xu.springcloud.shop.member.aspcet.LogApiAspcet - 《********** 响应消息返回数据信息 **********》
+2018-11-01 21:11:44.022 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 21:16:44.023 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-11-01 21:21:44.024 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
